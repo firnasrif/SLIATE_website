@@ -1,0 +1,351 @@
+ /* header */
+ .header {
+     background-color: #0A1128;
+     padding: 10px 0;
+     color: white;
+ }
+
+ .header-image {
+     margin: auto;
+     width: 100px;
+     /* Adjust size of the images */
+     height: 140px;
+ }
+
+ .header-text {
+     font-size: 20px;
+     font-weight: bold;
+ }
+
+ .header-left,
+ .header-right {
+     display: flex;
+     align-items: center;
+ }
+
+ .header-center {
+     text-align: center;
+     flex-grow: 1;
+     /* This ensures the center content takes up available space */
+ }
+
+ hr {
+     background-color: black;
+ }
+
+ /* about section */
+ .sliate-description {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     padding: 20px;
+ }
+
+ .container {
+     display: flex;
+     width: 100%;
+     max-width: 1200px;
+     margin: 0 auto;
+     align-items: center;
+ }
+
+ .media {
+     flex: 1;
+     padding-right: 20px;
+ }
+
+ .media-img {
+     width: 100%;
+     max-width: 500px;
+     /* Adjust as needed */
+     height: auto;
+ }
+
+ .media-video {
+     width: 100%;
+     max-width: 500px;
+     height: auto;
+ }
+
+ .description {
+     flex: 1;
+     padding-left: 20px;
+ }
+
+ .description h2 {
+     font-size: 2rem;
+     color: #333;
+     margin-bottom: 10px;
+ }
+
+ .description p {
+     font-size: 1rem;
+     color: #555;
+     line-height: 1.6;
+ }
+
+ .readmore-btn {
+     margin-top: 20px;
+     padding: 10px 20px;
+     background-color: #007bff;
+     color: white;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     font-size: 1rem;
+     transition: background-color 0.3s ease;
+ }
+
+ .readmore-btn:hover {
+     background-color: #0056b3;
+ }
+
+ /* contact */
+ .hero-section {
+     background-image: url(images/samati2.jpeg);
+     /* Dark color */
+     color: #f8f9fa;
+     /* Light text color */
+     padding: 100px 20px;
+     text-align: center;
+ }
+
+ .hero-section .btn-custom {
+     color: #0dcaf0;
+     /* Teal color */
+     border-color: #0dcaf0;
+ }
+
+ .hero-section .btn-custom:hover {
+     background-color: #0dcaf0;
+     color: #fff;
+ }
+
+ .featurette-divider {
+     border-top: 1px solid rgba(255, 255, 255, 0.2);
+     margin: 2rem 0;
+ }
+
+
+ .placeholder-circle {
+     background-image: url(images/Sliate.jpeg);
+     width: 120px;
+     height: 120px;
+     border-radius: 50%;
+     margin: 0 auto 1rem auto;
+ }
+
+ .featurette-image {
+     background-color: #adb5bd;
+     width: 100%;
+     height: 100%;
+     max-width: 500px;
+     max-height: 500px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: #6c757d;
+     font-size: 1.5rem;
+ }
+
+ .chatbox {
+     margin-top: 20px;
+     background-color: #f2f2f2;
+     padding: 20px;
+     border-radius: 8px;
+     max-height: 300px;
+     overflow-y: auto;
+ }
+
+ .chat-log {
+     max-height: 200px;
+     overflow-y: scroll;
+     text-align: left;
+     margin-bottom: 10px;
+ }
+
+ .chat-log .message {
+     padding: 10px;
+     margin: 5px 0;
+     border-radius: 4px;
+ }
+
+ .user-message {
+     background-color: #d9f7be;
+     text-align: left;
+ }
+
+ .bot-message {
+     background-color: #e0e0e0;
+     text-align: right;
+ }
+
+ .user-input {
+     width: 80%;
+     padding: 10px;
+     border-radius: 4px;
+     border: 1px solid #ccc;
+     margin-bottom: 10px;
+ }
+
+ submit {
+     padding: 10px 20px;
+     background-color: #0056b3;
+     color: white;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+ }
+
+ submit:hover {
+     background-color: #004494;
+ }
+
+
+ .faq-container {
+     max-width: 800px;
+     margin: 0 auto;
+     padding: 40px;
+     background-color: #fff;
+     border-radius: 8px;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+ }
+
+
+ .faq-item {
+     margin: 15px 0;
+ }
+
+ .faq-question {
+     width: 100%;
+     padding: 10px;
+     text-align: left;
+     background-color: #0056b3;
+     color: #fff;
+     border: none;
+     font-size: 16px;
+     cursor: pointer;
+     border-radius: 4px;
+     transition: background-color 0.3s;
+ }
+
+ .faq-question:hover {
+     background-color: #004494;
+ }
+
+ .faq-answer {
+     padding: 10px;
+     background-color: #f2f2f2;
+     border-radius: 4px;
+     margin-top: 5px;
+     display: none;
+ }
+
+ .faq-answer p {
+     margin: 0;
+ }
+
+ /* Footer */
+ .footer {
+     background-color: #0A1128;
+     color: #fff;
+     padding: 2rem;
+ }
+
+ .footer-container {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     gap: 2rem;
+ }
+
+ .footer-section {
+     flex: 1;
+     min-width: 200px;
+ }
+
+ .footer-section h4 {
+     font-size: 1.2rem;
+     margin-bottom: 1rem;
+ }
+
+ .footer-section ul {
+     list-style: none;
+     padding: 0;
+ }
+
+ .footer-section ul li {
+     margin: 0.5rem 0;
+ }
+
+ .footer-section ul li a {
+     color: #fff;
+     text-decoration: none;
+ }
+
+ .footer-section ul li a:hover {
+     text-decoration: underline;
+ }
+
+ .footer-newsletter {
+     flex: 1;
+     min-width: 200px;
+ }
+
+ .footer-newsletter h4 {
+     font-size: 1.2rem;
+     margin-bottom: 0.5rem;
+ }
+
+ .footer-newsletter p {
+     margin-bottom: 1rem;
+ }
+
+ .footer-newsletter form {
+     display: flex;
+     gap: 0.5rem;
+ }
+
+ .footer-newsletter input {
+     flex: 1;
+     padding: 0.5rem;
+     border: none;
+     border-radius: 4px;
+ }
+
+ .footer-newsletter button {
+     padding: 0.5rem 1rem;
+     border: none;
+     background-color: #007bff;
+     color: #fff;
+     border-radius: 4px;
+     cursor: pointer;
+ }
+
+ .footer-newsletter button:hover {
+     background-color: #0056b3;
+ }
+
+ .footer-bottom {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     border-top: 1px solid #333;
+     padding-top: 1rem;
+     margin-top: 2rem;
+ }
+
+ .footer-bottom p {
+     margin: 0;
+ }
+
+ .footer-socials a {
+     color: #fff;
+     margin-left: 1rem;
+     font-size: 1.5rem;
+     text-decoration: none;
+ }
+
+ .footer-socials a:hover {
+     color: #007bff;
+ }

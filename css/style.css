@@ -1,3 +1,10 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+
  /* header */
  .header {
      background-color: #0A1128;
@@ -31,6 +38,100 @@
 
  hr {
      background-color: black;
+ }
+
+ /* nav bar */
+ .navbar {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     background-color: white;
+     /* Match menu design color */
+     padding: 10px 20px;
+     border-radius: 8px;
+     position: absolute;
+     top: 200px;
+     left: 50%;
+     transform: translateX(-50%);
+     width: 90%;
+     z-index: 10;
+ }
+
+ .navbar .brand {
+     color: white;
+     font-size: 20px;
+     font-weight: bold;
+     text-decoration: none;
+ }
+
+ .navbar .menu-icon {
+     display: flex;
+     flex-direction: column;
+     cursor: pointer;
+ }
+
+ .navbar .menu-icon span {
+     background-color: white;
+     height: 3px;
+     width: 25px;
+     margin: 3px 0;
+     border-radius: 2px;
+ }
+
+ /* Carousel Height Adjustment */
+ .carousel-inner img {
+     object-fit: cover;
+ }
+
+ /* Off-canvas Navigation Styling */
+ .offcanvas {
+     background-color: white;
+     color: black;
+ }
+
+ .offcanvas-header .btn-close {
+     color: black;
+ }
+
+ .offcanvas-body a {
+     color: black;
+     text-decoration: none;
+     font-size: 18px;
+     margin: 10px 0;
+     display: block;
+ }
+
+ .offcanvas-body a:hover {
+     color: blue;
+ }
+
+ /* carousel */
+ .carousel-caption {
+     position: absolute;
+     top: 58%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     text-align: center;
+ }
+
+ /* Adjust text color and spacing */
+ .carousel-caption h5 {
+     color: white;
+     /* Or any preferred color */
+     font-size: 2rem;
+     /* Adjust size as needed */
+     font-weight: bold;
+ }
+
+ .carousel-caption p {
+     color: white;
+     /* Or any preferred color */
+     font-size: 1.2rem;
+     margin: 10px 0;
+ }
+
+ .carousel-caption .btn {
+     margin-top: 10px;
  }
 
  /* about section */
@@ -102,9 +203,9 @@
 
  /* contact */
  .hero-section {
-     background-image: url(images/samati2.jpeg);
+     background-image: url(images/samati.jpeg);
      /* Dark color */
-     color: #f8f9fa;
+     color: #0A1128;
      /* Light text color */
      padding: 100px 20px;
      text-align: center;
@@ -203,7 +304,7 @@
 
 
  .faq-container {
-     max-width: 800px;
+     max-width: 1300px;
      margin: 0 auto;
      padding: 40px;
      background-color: #fff;
@@ -220,7 +321,7 @@
      width: 100%;
      padding: 10px;
      text-align: left;
-     background-color: #0056b3;
+     background-color: #034078;
      color: #fff;
      border: none;
      font-size: 16px;
